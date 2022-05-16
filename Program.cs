@@ -13,6 +13,18 @@ app.Map("/api/calculate/summa", appBuilder => {
 });
 
 
+app.Map("/page/get", appBuilder => {
+    appBuilder.Run(async context => {
+	const string maximPage = "customPagesHtml/maxim.html";
+	const string georgePage = "customPagesHtml/george.html";
+	string pageName = context.Request.Query["p"];
+	bool isMax = ("max" == pageName);
+	string pathResult = isMax ? maximPage : georgePage;
+	await context.Response.SendFileAsync(pathResult);
+    });
+});
+
+
 app.Map("/api/calculate/multiply/json", appBuilder => {
     appBuilder.Run(async context => {
 	string a = context.Request.Query["a"];
