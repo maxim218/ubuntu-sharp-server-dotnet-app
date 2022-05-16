@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "2+TZmIcWvYO//xYiISCd67EzIAegptdeF/BQ6KiBaks=",
+  "Source": "ubuntu-sharp-server-dotnet-app",
+  "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ubuntu-sharp-server-dotnet-app/wwwroot",
+      "Source": "ubuntu-sharp-server-dotnet-app",
+      "ContentRoot": "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/wwwroot/",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/wwwroot/empty",
+      "SourceId": "ubuntu-sharp-server-dotnet-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/wwwroot/",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "RelativePath": "empty",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/empty"
+    }
+  ]
+}
