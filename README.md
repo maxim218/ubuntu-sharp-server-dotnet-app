@@ -30,4 +30,12 @@ curl "http://localhost:5288/api/calculate/summa?a=12&b=8"
 curl "http://localhost:5288/api/calculate/multiply/json?a=5&b=300"
 ```
 
+```
+curl "http://localhost:5288/page/get?p=max"
+```
+
+```
+curl "http://localhost:5288/page/get?p=geo"
+```
+
 
