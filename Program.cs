@@ -13,6 +13,16 @@ app.Map("/api/calculate/summa", appBuilder => {
 });
 
 
+app.Map("/api/query/headers", appBuilder => {
+    appBuilder.Run(async context => {
+	context.Response.Headers.AccessControlAllowOrigin = "*";
+	context.Response.Headers.CacheControl = "no-cache, no-store, must-revalidate";
+        string answerString = "Date string: " + DateTime.Now.ToString();
+	await context.Response.WriteAsync(answerString);
+    });
+});
+
+
 app.Map("/page/get", appBuilder => {
     appBuilder.Run(async context => {
 	const string maximPage = "customPagesHtml/maxim.html";
