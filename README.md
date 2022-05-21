@@ -38,4 +38,24 @@ curl "http://localhost:5288/page/get?p=max"
 curl "http://localhost:5288/page/get?p=geo"
 ```
 
+```
+http://localhost:5288/api/query/headers
+```
+
+```
+http://localhost:5288/get/author/information
+```
+
+```
+http://localhost:5288/people/info/get/max
+```
+
+```
+http://localhost:5288/method/math/call/kv/11
+```
+
+```
+http://localhost:5288/square/rectangle/7
+```
+
 
