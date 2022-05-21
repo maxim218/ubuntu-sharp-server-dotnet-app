@@ -61,6 +61,42 @@ app.Map("/api/calculate/post/operation", appBuilder => {
 });
 
 
+app.Map("/get/author/information", () => {
+    const string authorName = "Maxim Kolotovkin";
+    return authorName;
+});
+
+
+app.Map("/people/info/get/{k}", (string k) => {
+    if("max" == k) return "Maximov Maxim";
+    if("geo" == k) return "Georgiev George";
+    if("nin" == k) return "Ninova Nina";
+    return "Man not found";
+});
+
+
+app.Map("/method/math/call/{operation}/{k}", (string operation, string k) => {
+    if("kv" == operation) {
+	int answerInt = int.Parse(k) * int.Parse(k);
+	string msg = "Result: " + answerInt;
+	return msg;
+    }
+    if("cube" == operation) {
+	int answerInt = int.Parse(k) * int.Parse(k) * int.Parse(k);
+	string msg = "Result: " + answerInt;
+	return msg;
+    }
+    return "Operation not found";
+});
+
+
+app.Map("/square/rectangle/{x:int}", (int x) => {
+    int kvInt = x * x;
+    string message = "Square of " + x + " is " + kvInt;
+    return message;
+});
+
+
 app.Run();
 
 
