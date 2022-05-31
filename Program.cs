@@ -1,9 +1,26 @@
-var builder = WebApplication.CreateBuilder();
+var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
+
+
+builder.Configuration.AddJsonFile("customConfig.json");
+
+
+// get configuration from json file
+Console.WriteLine("maxim" + " : " + app.Configuration["maxim"]);
+Console.WriteLine("nina" + " : " + app.Configuration["nina"]);
+Console.WriteLine("george" + " : " + app.Configuration["george"]);
 
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
+
+
+// get configuration from cmd
+string xxxConf = app.Configuration["xxx"];
+string yyyConf = app.Configuration["yyy"];
+// print configuration
+Console.WriteLine('\n' + "xxxConf: " + xxxConf);
+Console.WriteLine("yyyConf: " + yyyConf + '\n');
 
 
 app.Map("/api/calculate/summa", appBuilder => {
