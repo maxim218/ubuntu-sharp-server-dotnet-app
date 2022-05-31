@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cB0j156PGkkUV0Ia2/12maDwVHfEKBMCIeOdfU70po0=",
+  "Hash": "EDlVxTL8tfNCr9J/Skrf4WqB6Ot5ikMlMMUHWlPfJCY=",
   "Source": "ubuntu-sharp-server-dotnet-app",
   "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
   "Mode": "Default",
@@ -32,6 +32,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\empty"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\index.html",
+      "SourceId": "ubuntu-sharp-server-dotnet-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
       "Identity": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\pageStaticA.html",

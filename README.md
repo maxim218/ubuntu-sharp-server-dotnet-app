@@ -58,4 +58,15 @@ http://localhost:5288/method/math/call/kv/11
 http://localhost:5288/square/rectangle/7
 ```
 
+```
+http://localhost:5288/
+```
+
+```
+http://localhost:5288/pageStaticA.html
+```
+
+```
+http://localhost:5288/pageStaticB.html
+```
 
