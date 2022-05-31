@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9Ak44UhntCp1GCe2CqFFcyw0zGM1qfawfzCdgfrGkIQCwDf6e/xNEpO/a8tCjIGcUhEvD0w9TESqak/w7lh0mw==",
+  "dgSpecHash": "gW2vtZ4ZiKontlYF5eezGYO1MfewXLevlp3Xmz7qD/vRfFCDhw5CAJQoeH9hXyb/TXGsvBEm3y3g8QNFi8h3PA==",
   "success": true,
-  "projectFilePath": "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/ubuntu-sharp-server-dotnet-app.csproj",
+  "projectFilePath": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\ubuntu-sharp-server-dotnet-app.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

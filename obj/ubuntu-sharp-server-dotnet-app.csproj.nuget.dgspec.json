@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/ubuntu-sharp-server-dotnet-app.csproj": {}
+    "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\ubuntu-sharp-server-dotnet-app.csproj": {}
   },
   "projects": {
-    "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/ubuntu-sharp-server-dotnet-app.csproj": {
+    "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\ubuntu-sharp-server-dotnet-app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/ubuntu-sharp-server-dotnet-app.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\ubuntu-sharp-server-dotnet-app.csproj",
         "projectName": "ubuntu-sharp-server-dotnet-app",
-        "projectPath": "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/ubuntu-sharp-server-dotnet-app.csproj",
-        "packagesPath": "/home/maxim/.nuget/packages/",
-        "outputPath": "/home/maxim/Desktop/ubuntu-sharp-server-dotnet-app/obj/",
+        "projectPath": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\ubuntu-sharp-server-dotnet-app.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/maxim/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.300/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

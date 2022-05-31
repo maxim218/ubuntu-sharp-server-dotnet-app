@@ -2,6 +2,10 @@ var builder = WebApplication.CreateBuilder();
 var app = builder.Build();
 
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+
+
 app.Map("/api/calculate/summa", appBuilder => {
     appBuilder.Run(async context => {
 	string a = context.Request.Query["a"];
