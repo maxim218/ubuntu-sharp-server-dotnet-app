@@ -70,3 +70,9 @@ http://localhost:5288/pageStaticA.html
 http://localhost:5288/pageStaticB.html
 ```
 
+### Cmd arguments
+
+```
+dotnet run xxx=hello yyy=world
+```
+
