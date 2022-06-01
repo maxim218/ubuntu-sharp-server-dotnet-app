@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "EDlVxTL8tfNCr9J/Skrf4WqB6Ot5ikMlMMUHWlPfJCY=",
+  "Source": "ubuntu-sharp-server-dotnet-app",
+  "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ubuntu-sharp-server-dotnet-app\\wwwroot",
+      "Source": "ubuntu-sharp-server-dotnet-app",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\empty",
+      "SourceId": "ubuntu-sharp-server-dotnet-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "RelativePath": "empty",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\empty"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\index.html",
+      "SourceId": "ubuntu-sharp-server-dotnet-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\pageStaticA.html",
+      "SourceId": "ubuntu-sharp-server-dotnet-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "RelativePath": "pageStaticA.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pageStaticA.html"
+    },
+    {
+      "Identity": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\pageStaticB.html",
+      "SourceId": "ubuntu-sharp-server-dotnet-app",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\Desktop\\ubuntu-sharp-server-dotnet-app\\wwwroot\\",
+      "BasePath": "_content/ubuntu-sharp-server-dotnet-app",
+      "RelativePath": "pageStaticB.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pageStaticB.html"
+    }
+  ]
+}
