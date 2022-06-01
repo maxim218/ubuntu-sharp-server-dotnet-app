@@ -39,6 +39,29 @@ app.Map("/api/calculate/summa", appBuilder => {
 });
 
 
+app.Map("/api/set/login", appBuilder => {
+    appBuilder.Run(async context => {
+        string myLogin = context.Request.Query["myLogin"];
+        context.Response.Cookies.Append("loginCookie", myLogin);
+        string resultAnswerString = "Ok: " + myLogin;
+        await context.Response.WriteAsync(resultAnswerString);
+    });
+});
+
+
+app.Map("/api/get/cookie/login", appBuilder => {
+    appBuilder.Run(async context => {
+        string contentString = "undefined";
+        if (context.Request.Cookies.ContainsKey("loginCookie")) {
+            string ? info = context.Request.Cookies["loginCookie"];
+            if (info != null) contentString = info;
+        } 
+        string resultAnswerString = "Login: " + contentString;
+        await context.Response.WriteAsync(resultAnswerString);
+    });
+});
+
+
 app.Map("/api/query/headers", appBuilder => {
     appBuilder.Run(async context => {
 	context.Response.Headers.AccessControlAllowOrigin = "*";
