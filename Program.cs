@@ -23,6 +23,11 @@ Console.WriteLine('\n' + "xxxConf: " + xxxConf);
 Console.WriteLine("yyyConf: " + yyyConf + '\n');
 
 
+CustomLogger.Information(app, "Information log");
+CustomLogger.Warning(app, "Warning log");
+CustomLogger.Error(app, "Error log");
+
+
 app.Map("/api/calculate/summa", appBuilder => {
     appBuilder.Run(async context => {
 	string a = context.Request.Query["a"];
@@ -141,3 +146,16 @@ public record OperationAnswer(
 );
 
 
+public static class CustomLogger {
+    public static void Information(WebApplication app, string message) {
+        app.Logger.LogInformation(message);
+    }
+
+    public static void Warning(WebApplication app, string message) {
+        app.Logger.LogWarning(message);
+    }
+
+    public static void Error(WebApplication app, string message) {
+        app.Logger.LogError(message);
+    }
+}
