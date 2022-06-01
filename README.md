@@ -70,6 +70,14 @@ http://localhost:5288/pageStaticA.html
 http://localhost:5288/pageStaticB.html
 ```
 
+```
+http://localhost:5288/api/set/login?myLogin=dmitry
+```
+
+```
+http://localhost:5288/api/get/cookie/login
+```
+
 ### Cmd arguments
 
 ```
