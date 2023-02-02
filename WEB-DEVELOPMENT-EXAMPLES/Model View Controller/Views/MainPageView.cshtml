@@ -1,0 +1,71 @@
+﻿@using NameSpaceMyMainPage
+@using NameSpacePerson
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Главная страница</title>
+    </head>
+<body>
+
+<h1>@ViewBag.myMessage</h1>
+@foreach (string animalString in ViewBag.myObj.Animals) {
+    <div>Animal: @animalString</div>
+}
+
+<h1>@ViewData["myMessage"]</h1>
+@{
+    MyPageFields? obj = (MyPageFields)ViewData["myObj"]!;
+    int age = obj.Age;
+    string[]? animals = obj.Animals;
+    string joinedAnimals = string.Join(", ", animals);
+}
+<h2>@age</h2>
+<h2>@joinedAnimals</h2>
+
+@{
+    string articleName = "Это главная страница приложения";
+    string colorOfArticle = "blue";
+}
+<h3 style="color: @colorOfArticle">@articleName</h3>
+
+@{
+    Person person = new Person("Maxim", 18);
+}
+<p>@person.GetName() has age @person.GetAge()</p>
+
+@{
+    const string markdown = "<h3>Hello</h3>";
+}
+<div>@markdown</div>
+<div>@Html.Raw(markdown)</div>
+
+@{
+    int firstInt = 6;
+    int secondInt = 14;
+    bool firstIsBigger = (firstInt > secondInt);
+}
+
+@if (firstIsBigger) {
+    <h3>Biggest: @firstInt</h3>
+}
+else {
+    <h3>Biggest: @secondInt</h3>
+}
+
+<h2>Students</h2>
+
+@{
+    string[] studentsArray = { "Maxim", "Nina", "George" };
+}
+<h2>Names</h2>
+@foreach (string nameStudent in studentsArray) {
+    <div style="color: gray">@nameStudent</div>
+}
+
+<h1>Numbers</h1>
+@for (int i = 1; i <= 9; i++) {
+    <b>@i , </b>
+}
+</body>
+</html>
